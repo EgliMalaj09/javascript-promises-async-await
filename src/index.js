@@ -23,4 +23,5 @@ function getBooksOrMovies(){
 }
 
 const getBooksOrMoviesPromise = getBooksOrMovies();
-getBooksOrMoviesPromise.then(results => console.log('getBooksOrMoviesPromise', results));
+getBooksOrMoviesPromise.then( results => 
+    console.log('getBooksOrMoviesPromise', results));
